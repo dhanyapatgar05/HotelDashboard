@@ -6,30 +6,102 @@
     background-color: #f0f7f4;
   }
   
-  .card {
+  .recommend-card {
     width: 360px;
-    background: white;
+    background-image: url("https://t4.ftcdn.net/jpg/09/80/77/73/360_F_980777360_6kPae3SIRW1un43tr67DTOHTGkRMSKAs.jpg");
     border-radius: 16px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 16px;
+    position: relative;
   }
   
-  .header {
+  .user-info {
     display: flex;
     align-items: center;
-    gap: 12px;
+    width: 100%;
   }
   
-  .icon {
-    font-size: 24px;
-    color: #6b7280;
+  .user-avatar {
+    width: 40px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
   }
   
-  .title {
+  .user-details {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  
+  .user-name {
     font-weight: bold;
+    font-size: 16px;
+    color: white;
   }
   
-  .subtitle {
+  .user-role {
+    font-size: 12px;
+    color: rgb(4, 56, 37);
+  }
+  
+  .bookmark-icon {
+    font-size: 20px;
+    color: white;
+    margin-left: auto;
+  }
+  
+  .recommend-title {
+    font-weight: bold;
+    margin-top: 12px;
+    color: white;
+  }
+  
+  .recommend-content {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 16px;
+    padding: 0px;
+    margin-top: 8px;
+    position: relative;
+  }
+  
+  .recommend-image {
+    width: 100px;
+    height: 120px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .recommend-text {
+    margin-left: 12px;
+    margin-bottom: 5px ;
+  }
+  
+  .recommend-badge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: #C8B084;
+    color: white;
+    font-size: 10px;
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+  
+  .recommend-heading {
+    font-weight: bold;
     font-size: 14px;
-    color: #6b7280;
+    color: #C8B084;
+  }
+  
+  .recommend-description {
+    font-size: 12px;
+    color: #428971;
+  }
+  
+  .recommend-info {
+    font-size: 12px;
+    color: #CCD0CF;
+    margin-top: 4px;
   }
