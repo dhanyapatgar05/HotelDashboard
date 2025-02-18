@@ -1,7 +1,7 @@
 import React from "react";
 import "./stories.css";
-import { IoIosTabletPortrait } from "react-icons/io";
-import { FaBookmark, FaChevronRight } from "react-icons/fa";
+
+import { FaBookmark, FaChevronRight, FaRegBookmark  } from "react-icons/fa";
 import { FaUser, FaPills, FaHome, FaGift, FaSearch, FaKey, FaBed, FaConciergeBell } from "react-icons/fa";
 
 const Stories = () => {
@@ -11,7 +11,7 @@ const Stories = () => {
         <div className="user-header">
         <div className="user-info">
           <img
-            src="https://th.bing.com/th/id/OIP.b2-meX2zxLYhbURyQTcGFQHaE8?pid=ImgDet&w=191&h=127&c=7" 
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX6w0nspeaszRjHIlNRcAsoAt2QOT0L73dHw&s" 
             alt="User"
             className="avatar"
           />
@@ -20,7 +20,7 @@ const Stories = () => {
             <p className="user-role">Hotel Guest</p>
           </div>
         </div>
-        <IoIosTabletPortrait  className="lock-icon" />
+        <FaRegBookmark   className="saved-icon" />
       </div>
 
       
@@ -30,7 +30,7 @@ const Stories = () => {
       <div className="recommendation-card">
       <div className="rec-image-container">
         <img
-          src="https://th.bing.com/th?q=Swimming+Pool+Lighting+Decor+Ideas&w=120&h=120&c=1&rs=1&qlt=90&cb=1&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247"
+          src="https://img.freepik.com/premium-photo/beauty-spa-center-massage-center-with-soft-lighting_1173591-1175.jpg"
           alt="Spa Treatment"
           className="rec-image"
         />
@@ -61,7 +61,7 @@ const Stories = () => {
         <div className="experiences-container">
           <div className="experience-card">
             <span className="experience-number">02</span>
-            <img src="https://th.bing.com/th?q=Free+Pictures+of+Bike+Riding&w=120&h=120&c=1&rs=1&qlt=90&cb=1&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247" alt="Bike Riding" className="experience-img" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcXvbC_YuzwrVFfeBluA1DoJPWHJGMXqp-dw&s" className="experience-img" />
             <div className="experience-details">
               <h4 className="experience-title">Bike Riding</h4>
               <p className="experience-desc">Varied tour options</p>
@@ -70,7 +70,7 @@ const Stories = () => {
 
           <div className="experience-card">
             <span className="experience-number">03</span>
-            <img src="https://th.bing.com/th/id/OIP.eCWskbjMapvq1teyS3JcJwHaF0?w=149&h=187&c=7&r=0&o=5&pid=1.7" alt="Dinner at the Table" className="experience-img" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxgdJqzYfQWYbyvEwmjkyiKVvjQ6HTKiD9CQ&s" alt="Dinner at the Table" className="experience-img" />
             <div className="experience-details">
               <h4 className="experience-title">Dinner at the Table</h4>
               <p className="experience-desc">From $30/person</p>
